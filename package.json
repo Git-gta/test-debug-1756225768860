@@ -1,0 +1,14 @@
+{
+  "name": "test-debug",
+  "version": "1.0.0",
+  "description": "Test rapide pour v�rifier le push GitHub",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "serve": "^14.0.0"
+  }
+}
